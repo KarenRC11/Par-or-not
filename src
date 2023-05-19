@@ -1,0 +1,12 @@
+#NUMEROS PARES E IMPARES
+
+print("Ingresa un número: ")
+num1 = input()
+
+def siPar(num1):
+    if num1 % 2 == 0:
+        print("Es par")
+    else:
+        print("Es impar")
+
+siPar(int(num1))
